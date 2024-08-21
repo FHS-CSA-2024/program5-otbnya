@@ -1,43 +1,62 @@
-public class Program4 {
-	Public static void main (String [] argos) {
+//import stuff here?
 
- Scanner myScanner = new Scanner(System.in);
+import java.util.Scanner;
 
-//Get input
-System.out.println (“Enter value 1”);
-num1 = myScanner.nextInt
+//Your code here
 
-//Get input
-System.out.println (“Enter value 2”);
-num2 = myScanner.nextInt
-
-//Get input
-System.out.println (“Enter value 3”);
-num3 = myScanner.nextInt
-
-//Get input
-System.out.println (“Enter value 4”);
-num4 = myScanner.nextInt
-
-//assigning values to variable
-
-Int num1 = 475;
-Int num2 = 821;
-Int num3 = 369;
-Int num4 = 562;
-
-//Find the sum
-Int sum = num1 + num2 + num3 + num4;
-
-//calculate the average
-Double average = sum/4; 
-//use 4 to get the decimal result
-
-//outputting the results
-System.out. Println (“The sum of the four numbers is” + sum”);
-System.out.println();
-System.out.println 9”The average of the four numbers is %.2f”);
-
+public class Program5 {
+    public static void min (String [] args) {
+        //Make a Scanner
+        Scanner myScanner = new Scanner(System.in);
+        
+        //Variables
+        int Rmiles = 286;
+        int Rgallons = 9;
+        int KKmiles = 412;
+        int KKgallons = 40;
+        int PFmiles = 361;
+        int PFgallons = 18;
+        int Bmiles = 161;
+        int Bgallons = 11;
+        
+        double Rmpg = Rmiles/Rgallons;
+        double KKmpg = KKmiles/KKgallons;
+        double PFmpg = PFmiles/PFgallons;
+        double Bmpg = Bmiles/Bgallons;
+        
+        Rmpg = Math.round(Rmpg*10.0)/10.0;
+        KKmpg = Math.round(KKmpg*10.0)/10.0;
+        PFmpg = Math.round(PFmpg*10.0)/10.0;
+        Bmpg = Math.round(Bmpg*10.0)/10.0;
+        
+        //output
+        System.out.println ("Mushroom Cup Prix Racer Average Miles/Per Gallon:");
+        System.out.println();
+        System.out.println ("Royale averaged " + Rmpg);
+        System.out.println();
+        System.out.println("Koopa King averaged " + KKmpg);
+        System.out.println();
+        System.out.println("Pipe Frame averaged " + PFmpg);
+        System.out.println();
+        System.out.println("Badwagon averaged " + Bmpg);
+        
+    }
 }
-}
+
+
+
+//Paste console output below:
+/*
+Mushroom Cup Prix Racer Average Miles/Per Gallon:
+
+Royale averaged 31.0
+
+Koopa King averaged 10.0
+
+Pipe Frame averaged 20.0
+
+Badwagon averaged 14.0
+
+*/
+
 

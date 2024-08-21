@@ -1,35 +1,43 @@
-# Program 5
+public class Program4 {
+	Public static void main (String [] argos) {
 
-## Program Description:  
-- Using the following data, calculate and print out the average miles per gallon for each vehicle.
-- Round the output to the nearest 10th gallon.
-- Be sure to use variables with easily recognizable names.
+ Scanner myScanner = new Scanner(System.in);
 
-## Program Data ##:
-| Vehicle  | Miles | Gallons |
-| ----  | ---- | ---- |
-| Royale  | 286 | 9 |
-| Koopa King  | 412 | 40 |
-| Pipe Frame | 361 | 18 |
-| Badwagon | 161 | 11 |
+//Get input
+System.out.println (“Enter value 1”);
+num1 = myScanner.nextInt
 
+//Get input
+System.out.println (“Enter value 2”);
+num2 = myScanner.nextInt
 
-### Statements Required: 
-- System.out
-- Variable Assignment
-- Math Operators
+//Get input
+System.out.println (“Enter value 3”);
+num3 = myScanner.nextInt
 
-### Sample Output:
->Mushroom Cup Prix Racer Average Miles/Per Gallon:
->
->Royale averaged 31.8 m/g
->
->Koopa King averaged 10.3 m/g
->
->Pipe Frame averaged 20.1 m/g
->
->Badwagon averaged 14.6 m/g
+//Get input
+System.out.println (“Enter value 4”);
+num4 = myScanner.nextInt
 
+//assigning values to variable
 
+Int num1 = 475;
+Int num2 = 821;
+Int num3 = 369;
+Int num4 = 562;
 
+//Find the sum
+Int sum = num1 + num2 + num3 + num4;
+
+//calculate the average
+Double average = sum/4; 
+//use 4 to get the decimal result
+
+//outputting the results
+System.out. Println (“The sum of the four numbers is” + sum”);
+System.out.println();
+System.out.println 9”The average of the four numbers is %.2f”);
+
+}
+}
 
